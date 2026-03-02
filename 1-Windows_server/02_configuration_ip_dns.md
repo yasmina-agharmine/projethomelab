@@ -1,7 +1,7 @@
 # Configuration IP statique et DNS
 
 Une fois la machine virtuelle créée et Windows Server installé, je configure **directement** l’adressage IP statique.  
-C’est important parce que pour un serveur (AD, DHCP, DNS), l’adresse IP ne doit pas changer. :contentReference[oaicite:2]{index=2}
+C’est important parce que pour un serveur (AD, DHCP, DNS), l’adresse IP ne doit pas changer.
 
 ## Où je vais pour changer l’IP
 Je me rends dans :

@@ -1,7 +1,7 @@
 # Installation de Windows Server (VirtualBox)
 
 Pour commencer, j’ai créé une machine virtuelle Windows Server avec VirtualBox.  
-J’ai choisi l’installation **avec l’expérience bureau**, parce que c’est plus simple pour configurer le serveur au début (interface graphique, outils, etc.). :contentReference[oaicite:1]{index=1}
+J’ai choisi l’installation **avec l’expérience bureau**, parce que c’est plus simple pour configurer le serveur au début (interface graphique, outils, etc.).
 
 ## Création de la machine virtuelle
 Dans VirtualBox, je crée une nouvelle VM Windows Server et je choisis mes paramètres :

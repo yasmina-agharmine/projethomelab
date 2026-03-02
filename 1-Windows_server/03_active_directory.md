@@ -9,7 +9,7 @@ Je sélectionne :
 Puis je coche :
 - **Active Directory Domain Services (AD DS)**
 
-Je clique sur suivant jusqu’à lancer l’installation. :contentReference[oaicite:4]{index=4}
+Je clique sur suivant jusqu’à lancer l’installation.
 
 👉 Capture d’écran à insérer ici : ajout du rôle AD DS dans le Gestionnaire de serveur
 
@@ -20,7 +20,7 @@ Je clique sur **Promouvoir ce serveur en contrôleur de domaine**.
 Je choisis :
 - **Ajouter une nouvelle forêt**
 - Nom de domaine : **rue25.local**
-Puis je configure le mot de passe et je redémarre. :contentReference[oaicite:5]{index=5}
+Puis je configure le mot de passe et je redémarre. 
 
 👉 Capture d’écran à insérer ici : étape "Promouvoir ce serveur…"
 
@@ -40,7 +40,7 @@ Ensuite, je configure Active Directory en créant les unités organisationnelles
 
 Je vais dans :
 Outils → **Utilisateurs et ordinateurs Active Directory**  
-Puis clic droit sur le domaine → Nouveau → **Unité d’organisation**. :contentReference[oaicite:6]{index=6}
+Puis clic droit sur le domaine → Nouveau → **Unité d’organisation**.
 
 ![OU créées dans le domaine](imgs/OU-créé-dans-Domain.png)
 
