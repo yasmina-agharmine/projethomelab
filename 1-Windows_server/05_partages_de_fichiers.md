@@ -4,7 +4,7 @@ Pour faire un dossier partagé, je vais dans l’explorateur de fichiers.
 Je crée sur le disque dur un dossier principal qui s’appelle **Partage**, puis dedans je crée des dossiers correspondant à chaque unité d’organisation (service).  
 Exemple : Direction, Commercial, Comptabilité, Immobilier.
 
-![Création des dossiers partagés](images/création-doss-partagé.png)
+![Création des dossiers partagés](imgs/création-doss-partagé.png)
 
 ---
 
@@ -24,7 +24,7 @@ Je clique sur **Vérifier les noms** : si c’est bon, le nom se souligne. Sinon
 Ensuite j’attribue les droits (lecture / écriture / modification selon le besoin).  
 Souvent je mets **Contrôle total** au groupe du service pour le dossier de son service.
 
-![Ajout du groupe au dossier partagé](images/ajout-grp-dossier-partagé-correspondant.png)
+![Ajout du groupe au dossier partagé](imgs/ajout-grp-dossier-partagé-correspondant.png)
 
 ---
 
