@@ -40,6 +40,8 @@ L’entreprise est structurée en plusieurs pôles :
 - Consultants  
 - Comptables  
 
+![Vérification du domaine Active Directory](imgs/schema-packettraccer.png)
+
 Chaque pôle dispose :
 
 - De ses propres utilisateurs
