@@ -9,10 +9,9 @@ Dans VirtualBox, je crée une nouvelle VM Windows Server et je choisis mes param
 - Disque dur virtuel
 - Carte réseau (je la configurerai après)
 
-👉 Capture d’écran à insérer ici : création de la VM (paramètres RAM/Disque/Réseau)
 
 ## Installation Windows Server
 Je lance la VM et je fais l’installation de Windows Server jusqu’au bureau.  
 Une fois que je suis sur le bureau, je vérifie que tout fonctionne (session admin, accès gestionnaire de serveur, etc.).
 
-👉 Capture d’écran à insérer ici : bureau Windows Server après installation
+

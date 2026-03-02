@@ -14,9 +14,7 @@ Je vais dans :
 Forêt → domaine **rue25.local** → et je repère **Objets de stratégie de groupe**.
 
 Je fais clic droit → **Nouveau** et je crée une GPO.  
-Exemple de nom : `GPO-Test-Connexion` (ou un nom clair selon le but).
-
-👉 Capture d’écran à insérer ici : création de la GPO dans "Objets de stratégie de groupe"
+Exemple de nom : `GPO-GLPI` (ou un nom clair selon le but).
 
 ## Modification de la GPO
 Je fais clic droit sur la GPO → **Modifier**.  
@@ -26,10 +24,9 @@ Je peux ensuite aller dans :
 Configuration ordinateur → Stratégies → Paramètres Windows → Paramètres de sécurité  
 Puis je cherche les options selon ce que je veux bloquer/autoriser (options de sécurité, ouverture de session, etc.).
 
-👉 Capture d’écran à insérer ici : éditeur GPO + chemin des paramètres de sécurité
+![Ajout du groupe au dossier partagé](imgs/gpo.png)
 
 ## Liaison de la GPO
 Pour qu’elle s’applique, je la lie au domaine ou à une OU (selon ce que je veux).  
 Exemple : si je veux que ça touche juste Comptabilité, je lie la GPO à l’OU Comptabilité.
 
-👉 Capture d’écran à insérer ici : liaison de la GPO à une OU

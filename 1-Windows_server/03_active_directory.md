@@ -50,7 +50,6 @@ Puis clic droit sur le domaine → Nouveau → **Unité d’organisation**.
 Pour chaque OU, je crée un groupe de sécurité (ça sert à gérer les permissions plus facilement, surtout pour les partages).  
 Dans l’OU : clic droit → Nouveau → **Groupe**.
 
-👉 Capture d’écran à insérer ici : création d’un groupe de sécurité (nom du groupe + type sécurité)
 
 ---
 

@@ -6,9 +6,9 @@ Ce projet met en place une infrastructure virtualisée reproduisant le fonctionn
 
 L’environnement comprend :
 
-- Un **Windows Server** (Active Directory, DNS, DHCP)
-- Un **serveur Debian** hébergeant **GLPI**
-- Un **poste client Windows 10** joint au domaine
+- Un Windows Server (Active Directory, DNS, DHCP)
+- Un serveur Debian hébergeant GLPI
+- Un poste client Windows 10 joint au domaine
 - Neuf utilisateurs répartis par services
 
 L’objectif est de simuler une PME avec authentification centralisée, gestion des accès par service et gestion des tickets.
@@ -62,14 +62,14 @@ Depuis le poste client Windows 10, il est possible de :
 
 L’authentification est centralisée par Active Directory.
 
-Une **GPO** a été mise en place afin de déployer automatiquement un **raccourci vers GLPI** sur les postes clients.  
+Une GPO a été mise en place afin de déployer automatiquement un raccourci vers GLPI sur les postes clients.  
 Cela permet aux utilisateurs d’accéder à l’outil de ticketing sans avoir à saisir manuellement l’adresse IP du serveur Debian.
 
 ---
 
 ## Gestion des tickets
 
-Le serveur Debian héberge **GLPI**, accessible depuis le réseau interne LAN2.
+Le serveur Debian héberge GLPI, accessible depuis le réseau interne LAN2.
 
 Les utilisateurs peuvent :
 
@@ -86,9 +86,9 @@ Ce lab reproduit ainsi un environnement d’entreprise complet avec gestion des 
 
 Le projet sera étendu avec les éléments suivants :
 
-- Mise en place d’un **système cloud** pour simuler un stockage ou service externe
-- Déploiement d’un **pare-feu** afin de renforcer la sécurité du réseau interne
-- Ajout d’une **machine Kali Linux** destinée à réaliser des tests d’intrusion basiques sur le poste client (attaques simples et contrôlées)
+- Mise en place d’un système cloud pour simuler un stockage ou service externe
+- Déploiement d’un pare-feu afin de renforcer la sécurité du réseau interne
+- Ajout d’une machine Kali Linux destinée à réaliser des tests d’intrusion basiques sur le poste client (attaques simples et contrôlées)
 - Renforcement progressif des stratégies de groupe (GPO) pour sécuriser davantage l’environnement
 
 Ces ajouts permettront d’élargir le projet vers une approche plus orientée **cybersécurité et sécurisation d’infrastructure**.

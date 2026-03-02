@@ -16,6 +16,6 @@ J’ai configuré les paramètres suivants :
 
 
 
-Le DNS est la même adresse que le serveur, parce que c’est ce qui permet à Active Directory de fonctionner correctement. :contentReference[oaicite:3]{index=3}
+Le DNS est la même adresse que le serveur, parce que c’est ce qui permet à Active Directory de fonctionner correctement.
 
-👉 Capture d’écran à insérer ici : fenêtre IPv4 avec l’IP statique + DNS
+

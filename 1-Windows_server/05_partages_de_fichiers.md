@@ -33,4 +33,4 @@ Après le partage, je vais aussi dans l’onglet **Sécurité** (permissions NTF
 Je clique sur **Modifier** → **Ajouter** → je remets le **groupe** du service → Vérifier les noms.  
 Puis je donne au groupe les droits nécessaires (lecture, écriture, modification).
 
-👉 Capture d’écran à insérer ici : onglet Sécurité (NTFS) avec le groupe + droits
+
