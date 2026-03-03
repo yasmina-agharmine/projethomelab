@@ -91,4 +91,4 @@ Le projet sera étendu avec les éléments suivants :
 - Ajout d’une machine Kali Linux destinée à réaliser des tests d’intrusion basiques sur le poste client (attaques simples et contrôlées)
 - Renforcement progressif des stratégies de groupe (GPO) pour sécuriser davantage l’environnement
 
-Ces ajouts permettront d’élargir le projet vers une approche plus orientée **cybersécurité et sécurisation d’infrastructure**.
+Ces ajouts permettront d’élargir le projet vers une approche plus orientée cybersécurité et sécurisation d’infrastructure.
