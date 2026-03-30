@@ -25,7 +25,7 @@ Je mets :
 
 Cela permet d’avoir une architecture plus propre, avec plusieurs sous-réseaux séparés.
 
-![Attribution des cartes réseau à pfSense](../imgs/assignmentcartereseau.png)
+![Attribution des cartes réseau à pfSense](imgs/assignmentcartereseau.png)
 
 Une fois la machine démarrée, je passe par le menu console de pfSense.  
 J’utilise l’option 1 pour assigner les interfaces réseau aux bonnes cartes, puis l’option 2 pour leur attribuer les bonnes adresses IP.
