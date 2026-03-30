@@ -32,7 +32,7 @@ J’utilise l’option 1 pour assigner les interfaces réseau aux bonnes cartes,
 
 Je définis ainsi les passerelles de chaque réseau afin que pfSense puisse devenir le point de passage entre eux.
 
-![Configuration des interfaces dans pfSense](../imgs/interfaceconfigfppSenseviakali.png)
+![Configuration des interfaces dans pfSense](imgs/interfaceconfigfppSenseviakali.png)
 
 ## Premier accès à l’interface web
 
@@ -46,7 +46,7 @@ Avant d’ouvrir le navigateur, je vérifie sur la machine du réseau LAN3 que l
 
 Je teste cela avec un ping vers la passerelle.
 
-![Test de la passerelle avant accès web](../imgs/testpingpasserellewinservreussi.png)
+![Test de la passerelle avant accès web](imgs/testpingpasserellewinservreussi.png)
 
 Si tout fonctionne, j’ouvre ensuite le navigateur et je tape l’adresse de la passerelle en HTTPS.  
 J’arrive alors sur la page de connexion de pfSense. Les identifiants par défaut utilisés sont :
@@ -70,13 +70,13 @@ Je sauvegarde ensuite la règle et je fais la même chose sur l’autre interfac
 
 Une fois les règles appliquées, je vérifie que les passerelles répondent bien sur toutes les interfaces.
 
-![Vérification des IP des passerelles](../imgs/ippasserelleallinterfaces.png)
+![Vérification des IP des passerelles](imgs/ippasserelleallinterfaces.png)
 
 Je teste ensuite les communications entre les réseaux.  
 Je fais ensuite un test de communication pour vérifier que le réseau LAN4 fonctionne bien après les modifications réalisées.  
 Le but ici est surtout de confirmer que le nouveau réseau est bien joignable via pfSense et que le routage fonctionne correctement après la réorganisation des interfaces.
 
-![Test de communication avec LAN4](../imgs/pinglan2verslan4ok.png)
+![Test de communication avec LAN4](imgs/pinglan2verslan4ok.png)
 
 À partir de là, les machines peuvent communiquer entre plusieurs réseaux différents via pfSense.  
 On peut aussi accéder à l’interface web de pfSense depuis d’autres réseaux tant que les règles le permettent.
@@ -88,7 +88,7 @@ Une fois l’infrastructure devenue plus stable, je déplace le serveur Debian /
 Cela implique de modifier la carte réseau de la VM dans VirtualBox, puis de changer son adressage IP statique pour qu’il corresponde au réseau LAN4.  
 Je garde pfSense comme passerelle, car c’est lui qui route désormais entre les sous-réseaux.
 
-![Changement d’IP de Debian dans le bon réseau](../imgs/changementipdebiandanslebonreseaupingverslerouteur.png)
+![Changement d’IP de Debian dans le bon réseau](imgs/changementipdebiandanslebonreseaupingverslerouteur.png)
 
 Après ce changement, je vérifie de nouveau la communication entre les machines de tous les réseaux pour m’assurer que Debian reste joignable une fois déplacé.
 
@@ -99,12 +99,12 @@ Le problème vient du fait que l’ancienne URL pointait vers l’ancienne adres
 
 Quand j’ouvre le raccourci sur le poste client, j’obtiens une erreur.
 
-![Erreur sur le raccourci GLPI](../imgs/erreurdansleraccourci.png)
+![Erreur sur le raccourci GLPI](imgs/erreurdansleraccourci.png)
 
 Je retourne donc dans la stratégie de groupe, dans la partie qui gère le raccourci utilisateur, puis j’ouvre l’élément GLPI pour modifier l’URL.  
 Je remplace l’ancienne adresse par la nouvelle IP de Debian sur LAN4.
 
-![Mise à jour du raccourci GLPI avec la nouvelle IP](../imgs/majraccourciglpinewip.png)
+![Mise à jour du raccourci GLPI avec la nouvelle IP](imgs/majraccourciglpinewip.png)
 
 Une fois la GPO modifiée, je force sa mise à jour sur le poste client avec la commande :
 
@@ -112,7 +112,7 @@ gpupdate /force
 
 Le raccourci est alors bien mis à jour et il fonctionne de nouveau.
 
-![Mise à jour de la GPO appliquée](../imgs/gpudatenowcamarcheleraccourci.png)
+![Mise à jour de la GPO appliquée](imgs/gpudatenowcamarcheleraccourci.png)
 
 ## Sauvegarde de la configuration pfSense
 
