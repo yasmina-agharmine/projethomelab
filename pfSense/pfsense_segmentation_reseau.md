@@ -32,7 +32,7 @@ J’utilise l’option 1 pour assigner les interfaces réseau aux bonnes cartes,
 
 Je définis ainsi les passerelles de chaque réseau afin que pfSense puisse devenir le point de passage entre eux.
 
-![Configuration des interfaces dans pfSense](imgs/interfaceconfigfppSenseviakali.png)
+![Configuration des interfaces dans pfSense](imgs/interfaceconfigfpSenceviakali.png.png)
 
 ## Premier accès à l’interface web
 
@@ -112,7 +112,7 @@ gpupdate /force
 
 Le raccourci est alors bien mis à jour et il fonctionne de nouveau.
 
-![Mise à jour de la GPO appliquée](imgs/gpudatenowcamarcheleraccourci.png)
+![Mise à jour de la GPO appliquée](imgs/gpupdatenowcamarcheleraccourci.png)
 
 ## Sauvegarde de la configuration pfSense
 
