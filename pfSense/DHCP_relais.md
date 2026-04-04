@@ -35,12 +35,3 @@ J’y ai défini :
 Pour tester la configuration, j’ai modifié la configuration réseau de deux machines clientes de mon lab, une machine **Kali Linux** et une machine **Metasploitable**, qui étaient auparavant configurées en adresse IP statique. Je les ai passées en **DHCP** afin de vérifier qu’elles pouvaient récupérer automatiquement une adresse sur le réseau **LAN3**.
 
 Les deux machines ont bien obtenu une configuration réseau valide, ce qui confirme que le **DHCP Relay fonctionne correctement** entre pfSense et mon serveur DHCP Windows 
-### Ce que cette étape m’a permis de comprendre
-
-Cette manipulation m’a permis de mieux comprendre plusieurs notions importantes :
-- le fonctionnement d’une requête **DHCP en broadcast** ;
-- le fait qu’un broadcast ne traverse pas naturellement un routeur ;
-- le rôle du **DHCP Relay** dans une infrastructure segmentée ;
-- l’importance de configurer la **bonne passerelle**, c’est-à-dire celle du sous-réseau du client, et non celle du serveur DHCP.
-
-Cette étape s’inscrit directement dans une logique d’**administration et de sécurisation d’infrastructures réseau**, en lien avec les compétences visées dans un parcours d’Administrateur d’Infrastructures Sécurisées 
