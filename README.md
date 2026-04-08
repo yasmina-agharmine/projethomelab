@@ -42,7 +42,7 @@ Cette architecture permet :
 - De séparer les postes utilisateurs, les services internes et l’environnement de test
 - De rendre le lab plus réaliste dans une logique d’administration d’infrastructure sécurisée
 
-![Schéma réseau mis à jour](imgs/schema-packettraccer-update.png)
+![Schéma réseau mis à jour](../imgs/schema-packettraccer-update.png)
 
 ---
 
